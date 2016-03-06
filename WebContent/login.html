@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+$http({
+
+	url : "http://localhost:8080/NoteRS/get
+	",
+	method : 'GET',
+	header : {
+	      Content-Type : 'application/json',    
+	      Authorization: token
+	      }
+	}).success(function(data){
+	    alert("login Successfully");
+	}).error(function(error){
+	    alert("login error");
+	})
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,7 +1,5 @@
 package com.notes.fiters;
 
-import java.io.IOException;
-import java.util.Base64;
 import java.util.StringTokenizer;
 
 public class BasicAuthenticationService {
